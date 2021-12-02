@@ -1,6 +1,6 @@
 import { createRouter, createWebHistory } from "vue-router";
 import Home from "../views/Home.vue";
-import page2 from "../views/page2.vue";
+import search from "../views/search.vue";
 import page3 from "../views/page3.vue";
 
 const routes = [
@@ -10,9 +10,9 @@ const routes = [
     component: Home,
   },
   {
-    path: "/page2",
-    name: "page2",
-    component: page2,
+    path: "/search",
+    name: "search",
+    component: search,
   },
   {
     path: "/page3",
